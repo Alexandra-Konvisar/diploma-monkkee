@@ -3,7 +3,7 @@ Autotest framework for a private and free online diary: https://www.monkkee.com/
 
 Test cases can be found also
 
-The following test cases are automated:
+The following test cases are automated: https://app.qase.io/project/DM
 
 *TC-1.	Create new account.*
 1.	Follow the link: [Login Page](https://my.monkkee.com/#/)	- ***Expected:*** Login page is opened. Login form is visible. Clickable 'Register' link is present.
