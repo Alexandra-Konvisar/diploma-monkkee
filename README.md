@@ -8,19 +8,19 @@ The following test cases are automated: https://app.qase.io/project/DM
 *TC-1.	Create new account.*
 1.	Follow the link: [Login Page](https://my.monkkee.com/#/)	- ***Expected:*** Login page is opened. Login form is visible. Clickable 'Register' link is present.
 2. Click on 'Register' link.	- ***Expected:*** 'Registration' modal window is opened. 'Email', 'Password', 'Password confirmation', 'Password hint' fields, 'OK' button, Check-boxes 'I have read and agree to the Privacy Policy and Terms of Use.' and 'I am aware that there is no way for monkkee to recover or reset my login password if I forget it and that my data will be irretrievably lost in that case. It is my sole responsibility to remember the password for my account. Learn more about this in the FAQ section.' are present.
-3. Fill in the following fields: 'Email' = cab.look.cab@gmail.com; 'Password' = 'Password confirmation' = Password123; 'Password hint' = Password1234. Tick all check-boxes. - ***Expected:***	Listed fields are filled in with test data. Listed check-boxed are ticked.
+3. Fill in the following fields: 'Email' = alexandrakonvisar@gmail.com; 'Password' = 'Password confirmation' = Password123; 'Password hint' = Password1234. Tick all check-boxes. - ***Expected:***	Listed fields are filled in with test data. Listed check-boxed are ticked.
 4. Click on 'OK' button.	- ***Expected:*** User is registered. The following text message is present: 'User registered
 
 
 *TC-2.	Existing User can log in into the system.*
 1. Follow the link: [Login Page](https://my.monkkee.com/#/)	***Expected:*** Login page is opened. Login form is visible. 'User' and 'Password' fields, 'Login' button are present.
-2. Fill in the following fields: 'User' = cab.look.cab@gmail.com; 'Password' = Password123. - ***Expected:***	Listed fields are filled in with test data. 
+2. Fill in the following fields: 'User' = alexandrakonvisar@gmail.com; 'Password' = Password123. - ***Expected:***	Listed fields are filled in with test data. 
 3. Click on 'Login' button. - ***Expected:***	In case no modal window is appeared - User is redirected to [Entries Page](https://my.monkkee.com/#/entries). Active 'Create an entry' button is present on the toolbar.
 4. In case a modal window is appeared - close it by clicking 'Cancel'. - ***Expected:*** User is redirected to https://my.monkkee.com/#/entries. Active 'Create an entry' button is present on the toolbar.
 
 *TC-3.	Logged in into the system User can log out.*
 1. Follow the link: [Login Page](https://my.monkkee.com/#/)	***Expected:*** Login page is opened. Login form is visible. 'User' and 'Password' fields, 'Login' button are present.
-2. Fill in the following fields: 'User' = cab.look.cab@gmail.com; 'Password' = Password123. - ***Expected:***	Listed fields are filled in with test data. 
+2. Fill in the following fields: 'User' = alexandrakonvisar@gmail.com; 'Password' = Password123. - ***Expected:***	Listed fields are filled in with test data. 
 3. Click on 'Login' button. - ***Expected:***	In case no modal window is appeared - User is redirected to [Entries Page](https://my.monkkee.com/#/entries). Active 'Create an entry' button is present on the toolbar.
 4. In case a modal window is appeared - close it by clicking 'Cancel'. - ***Expected:*** User is redirected to https://my.monkkee.com/#/entries. Active 'Create an entry' button is present on the toolbar.
 5.	Click on 'Logout' button.	- ***Expected:*** User is redirected to https://my.monkkee.com/#/ (Login page). 'Logout' button is absent.
@@ -28,7 +28,7 @@ The following test cases are automated: https://app.qase.io/project/DM
 
 *TC-4.	User can create a new entry.*
 1. Follow the link: [Login Page](https://my.monkkee.com/#/)	***Expected:*** Login page is opened. Login form is visible. 'User' and 'Password' fields, 'Login' button are present.
-2. Fill in the following fields: 'User' = cab.look.cab@gmail.com; 'Password' = Password123. - ***Expected:***	Listed fields are filled in with test data. 
+2. Fill in the following fields: 'User' = alexandrakonvisar@gmail.com; 'Password' = Password123. - ***Expected:***	Listed fields are filled in with test data. 
 3. Click on 'Login' button. - ***Expected:***	In case no modal window is appeared - User is redirected to [Entries Page](https://my.monkkee.com/#/entries). Active 'Create an entry' button is present on the toolbar.
 4. In case a modal window is appeared - close it by clicking 'Cancel'. - ***Expected:*** User is redirected to https://my.monkkee.com/#/entries. Active 'Create an entry' button is present on the toolbar.
 5.	Click on 'Create an entry' button. - ***Expected:*** A modal window with empty text area for input is present.
@@ -36,7 +36,7 @@ The following test cases are automated: https://app.qase.io/project/DM
 
 *TC-5.	User can remove existing entry.*	
 1.	Follow the link: [Login Page](https://my.monkkee.com/#/) - ***Expected:***	Login page is opened. Login form is visible. 'User' and 'Password' fields, 'Login' button are present.
-2.	Fill in the following fields: 'User' = cab.look.cab@gmail.com; 'Password' = Password123.	- ***Expected:***	Listed fields are filled in with test data.
+2.	Fill in the following fields: 'User' = alexandrakonvisar@gmail.com; 'Password' = Password123.	- ***Expected:***	Listed fields are filled in with test data.
 3.	Click on 'Login' button.	- Expected:	User is redirected to [Entries Page](https://my.monkkee.com/#/entries). Active 'Create an entry' button is present on the toolbar.
 4. In case a modal window is appeared - close it by clicking 'Cancel'. - ***Expected:*** User is redirected to https://my.monkkee.com/#/entries. Active 'Create an entry' button is present on the toolbar.
 5.	Click on 'Create an entry' button.	- ***Expected:***	A modal window with empty text area for input is present.
@@ -48,7 +48,7 @@ The following test cases are automated: https://app.qase.io/project/DM
 
 *TC-6.	User searches for existing entry.*
 1.	Follow the link: [Login Page](https://my.monkkee.com/#/)	- ***Expected:***	Login page is opened. Login form is visible. 'User' and 'Password' fields, 'Login' button are present.
-2.	Fill in the following fields: 'User' = cab.look.cab@gmail.com; 'Password' = Password123.	- ***Expected:***	Listed fields are filled in with test data.
+2.	Fill in the following fields: 'User' = alexandrakonvisar@gmail.com; 'Password' = Password123.	- ***Expected:***	Listed fields are filled in with test data.
 3.	Click on 'Login' button.	- ***Expected:***	User is redirected to [Entries Page](https://my.monkkee.com/#/entries). 'Search' field is present on the right side of the window.
 4. In case a modal window is appeared - close it by clicking 'Cancel'. - ***Expected:*** User is redirected to https://my.monkkee.com/#/entries. Active 'Create an entry' button is present on the toolbar.
 5.	Click on 'Create an entry' button.	- ***Expected:***	A modal window with empty text area for input is present.
@@ -59,7 +59,7 @@ The following test cases are automated: https://app.qase.io/project/DM
 
 *TC-7.	Existing entries can be filtered by the date.*	
 1.	Follow the link: [Login Page](https://my.monkkee.com/#/) - ***Expected:***	Login page is opened. Login form is visible. 'User' and 'Password' fields, 'Login' button are present.
-2.	Fill in the following fields: 'User' = cab.look.cab@gmail.com; 'Password' = Password123. - ***Expected:*** Listed fields are filled in with test data.
+2.	Fill in the following fields: 'User' = alexandrakonvisar@gmail.com; 'Password' = Password123. - ***Expected:*** Listed fields are filled in with test data.
 3.	Click on 'Login' button. - ***Expected:***	User is redirected to [Entries Page](https://my.monkkee.com/#/entries). Active 'Create an entry' button is present on the toolbar.
 4. In case a modal window is appeared - close it by clicking 'Cancel'. - ***Expected:*** User is redirected to https://my.monkkee.com/#/entries. Active 'Create an entry' button is present on the toolbar.
 5.	Click on 'Create an entry' button. - ***Expected:***	A modal window with empty text area for input is present.
@@ -73,7 +73,7 @@ The following test cases are automated: https://app.qase.io/project/DM
 
 *TC-8.	Tags can be managed.*
 1.	Follow the link: [Login Page](https://my.monkkee.com/#/) - ***Expected:***	Login page is opened. Login form is visible. 'User' and 'Password' fields, 'Login' button are present.
-2.	Fill in the following fields: 'User' = cab.look.cab@gmail.com; 'Password' = Password123. - Expected:	Listed fields are filled in with test data.
+2.	Fill in the following fields: 'User' = alexandrakonvisar@gmail.com; 'Password' = Password123. - Expected:	Listed fields are filled in with test data.
 3.	Click on 'Login' button. - Expected:	User is redirected to [Entries Page](https://my.monkkee.com/#/entries). - ***Expected:*** 'Manage tags' button is present.
 4. In case a modal window is appeared - close it by clicking 'Cancel'. - ***Expected:*** User is redirected to https://my.monkkee.com/#/entries. Active 'Create an entry' button is present on the toolbar.
 5.	Click on the last entry. Navigate to 'Tags' area. - ***Expected:*** 'Create new tag' field is empty and present.
@@ -82,7 +82,7 @@ The following test cases are automated: https://app.qase.io/project/DM
 
 *TC-9.	Image can be inserted into the entry.*
 1.	Follow the link: [Login Page](https://my.monkkee.com/#/) - ***Expected:***	Login page is opened. Login form is visible. 'User' and 'Password' fields, 'Login' button are present.
-2.	Fill in the following fields: 'User' = cab.look.cab@gmail.com; 'Password' = Password123. - Expected:	Listed fields are filled in with test data.
+2.	Fill in the following fields: 'User' = alexandrakonvisar@gmail.com; 'Password' = Password123. - Expected:	Listed fields are filled in with test data.
 3.	Click on 'Login' button. - ***Expected:***	User is redirected to [Entries Page](https://my.monkkee.com/#/entries). Active 'Create an entry' button is present on the toolbar.
 4. In case a modal window is appeared - close it by clicking 'Cancel'. - ***Expected:*** User is redirected to https://my.monkkee.com/#/entries. Active 'Create an entry' button is present on the toolbar.
 5.	Click on 'Create an entry' button. - ***Expected:***	A modal window with empty text area for input is present.
@@ -93,7 +93,7 @@ The following test cases are automated: https://app.qase.io/project/DM
 
 *TC-10.	User can format existing entry.*
 1.	Follow the link: [Login Page](https://my.monkkee.com/#/) - ***Expected:***	Login page is opened. Login form is visible. 'User' and 'Password' fields, 'Login' button are present.
-2.	Fill in the following fields: 'User' = cab.look.cab@gmail.com; 'Password' = Password123. - ***Expected:***	Listed fields are filled in with test data.
+2.	Fill in the following fields: 'User' = alexandrakonvisar@gmail.com; 'Password' = Password123. - ***Expected:***	Listed fields are filled in with test data.
 3.	Click on 'Login' button. - ***Expected:***	User is redirected to [Entries Page](https://my.monkkee.com/#/entries). Active 'Create an entry' button is present on the toolbar.
 4. In case a modal window is appeared - close it by clicking 'Cancel'. - ***Expected:*** User is redirected to https://my.monkkee.com/#/entries. Active 'Create an entry' button is present on the toolbar.
 5.	Click on 'Create an entry' button. - ***Expected:***	A modal window with empty text area for input is present.
