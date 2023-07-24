@@ -7,6 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.EntriesPage;
 
+
 public class EntryFormattingTest extends BaseTest {
     private static final Logger LOGGER = LogManager.getLogger(EntryFormattingTest.class.getName());
 
