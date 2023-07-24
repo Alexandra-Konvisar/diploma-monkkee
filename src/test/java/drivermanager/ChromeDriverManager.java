@@ -9,6 +9,7 @@ import java.util.Arrays;
 public class ChromeDriverManager extends DriverManager {
     @Override
     public void createDriver() {
+        System.setProperty("webdriver.chrome.driver", "/Users/alexandra/IdeaProjects/diploma-monkkee/src/test/resources/chromedriver ");
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");

@@ -94,7 +94,7 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <systemPropertyVariables>
-                        <webdriver.chrome.driver>/Users/alexandra/IdeaProjects/diploma-monkkee/chromedriver</webdriver.chrome.driver>
+                        <webdriver.chrome.driver>/Users/alexandra/IdeaProjects/diploma-monkkee/src/test/resources/chromedriver</webdriver.chrome.driver>
                     </systemPropertyVariables>
                     <argLine>
                         -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar
