@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/maryiakrautsova/monkkee.git'
+                git 'https://github.com/Alexandra-Konvisar/diploma-monkkee.git'
 
                 // Run Maven on a Unix agent.
                  sh "mvn clean test"
